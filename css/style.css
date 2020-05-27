@@ -1,0 +1,387 @@
+@font-face{
+    font-family: Nazanin;
+    src: url('../fonts/BNAZANIN.TTF');
+}
+
+*{
+    font-family: Nazanin !important;
+}
+
+@media (min-width: 1380px){
+    div#main-container{ 
+        width:1350px;
+        margin: 0px auto; 
+    }
+}
+
+@media (max-width: 1379px){
+    div#main-container{ 
+        width:93%;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width:700px){
+    div.card-post div.form-group a{
+        width:99% !important;
+    }
+}
+
+div#main{
+    width:100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background-color: #e9e9e9;
+}
+
+nav{
+    padding: 0px !important;
+    background-color: rgb(77,99,111);
+}
+
+nav > a.navbar-brand{
+    padding-left: 16px;
+    padding-right: 16px;
+    color: white !important;
+    transition: 0.5s;
+}
+
+nav > button.navbar-toggler {
+    border: 1px solid white !important;
+    margin-right: 5px;
+    box-shadow: 0px 0px 3px black;
+}
+
+nav > a.navbar-brand:hover {
+    background-color: rgb(47,69,81);
+    text-shadow: 0px 0px 10px white;
+    position: relative;
+}
+
+nav > a.navbar-brand:hover > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;    
+    box-shadow: 0px 0px 5px black;
+}
+
+nav > a.navbar-brand > img {
+    width: 45px; 
+    height: 45px; 
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+div.collapse > ul{
+    margin-left: auto !important;
+    margin-right: 0px !important;
+    
+}
+
+li.nav-item {
+    margin-left: 5px;
+    transition: 0.5s;
+    text-align: right;
+}
+
+li.nav-item:hover{
+    background-color: rgb(47,69,81);
+    text-shadow: 0px 0px 10px white;
+}
+
+li.nav-item > a.nav-link{
+    color: white !important;
+}
+li.nav-item > a.nav-link> img{
+    width: 35px; 
+    height: 35px; 
+    border-radius: 30px;  
+    margin-right: 5px; 
+    margin-left: 5px;
+    filter: invert(100%);
+}
+
+div#main-container{ 
+    margin-top: 30px;
+    
+}
+
+div.row > div{
+    direction: rtl;
+    text-align: right;
+}
+
+
+div.card-sugg{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+div.card-sugg  div.card-header{
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+div.card-sugg img.card-img-top{
+    width:85%;
+    margin: 10px auto;
+    border: 2px solid green;
+}
+
+div.card-sugg div.card-body{
+    padding-top: 5px;
+}
+
+div.card-sugg div.card-body img{
+    filter: invert(100%);
+}
+
+div.card-sugg h2.card-title{
+    text-shadow: 0px 0px 15px black;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+div.card-sugg p.card-text{
+    font-size: 19px;
+    font-style: italic;
+}
+
+div.card-sugg a.btn{
+    font-size: large;
+}
+
+div.card-req{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+div.card-req  div.card-header{
+    font-size: 19px;
+    font-weight: bolder;
+    background-color: rgb(125,151,165) !important;
+}
+
+
+
+div.card-req img.card-img-top{
+    width:85%;
+    margin: 10px auto;
+    border: 2px solid green;
+}
+
+div.card-req span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+div.card-sugg div.card-body{
+    padding-top: 5px;
+}
+
+div.card-req a.btn {
+    width: 75px;
+    margin-top: 3px;
+    font-size: large;
+}
+
+div.card-req a.btn img{
+    filter: invert(100%);
+}
+
+div.card-post{
+    margin-bottom: 15px;
+}
+
+div.card-post div.row{
+    margin: 0px 1px;
+}
+
+div.card-post div.col-lg-3{
+    padding: 0px 1px;
+}
+
+div.card-post div.col-lg-9{
+    padding: 0px 1px;
+}
+
+div.card-post p {
+    font-size: 20px;
+    color: grey;
+}
+
+div.card-post input{
+    margin-top: 3px;
+}
+
+div.card-post div.form-group{
+    text-align: center;
+}
+div.card-post div.form-group a{
+    margin:3px 0px;
+    display: inline-block;
+    width: 32.9%;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+div.card-post div.form-group a:hover{
+    text-shadow: 0px 0px 10px white;
+}
+div.card-post div.form-group a img{
+    width:25px;
+    height: 25px;
+    filter: invert(100%);
+}
+
+div.card-message{
+    margin-bottom: 10px;
+}
+
+div.card-message div.card-header{
+    padding: 0px;
+}
+
+div.card-message div.card-header img.avatar-img{
+    display: block;
+    float: right;
+    border-radius: 50px;
+    width:80px;
+    height:80px;
+    margin: 5px;
+}
+
+div.card-message div.card-header h3{
+    display: block;
+    float: right;
+    margin-top: 30px;
+}
+
+div.card-message div.card-header h4{
+    display: block;
+    float: left;
+    font-size: 100%;
+    color: lightseagreen;
+    margin-left: 5px;
+    margin-top: 34px;
+}
+
+div.card-message div.card-body a img{
+    filter: invert(100%);
+}
+
+div.card-message div.card-body p {
+    font-size: 18px;
+
+}
+
+div.card-message div.card-body > img {
+    display: block;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+div.card-profile{
+    margin-bottom: 10px;
+}
+
+div.card-profile div.card-header {
+    padding-top: 0px;
+}
+div.card-profile div.card-header img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    margin: 0px auto;
+}
+
+div.card-profile div.card-header h3{
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+    margin: 10px auto;
+}
+
+div.card-profile div.card-body ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    
+} 
+
+div.card-profile div.card-body ul > li{
+    font-size: 20px;
+}
+
+div.card-profile div.card-body ul > li > img{ 
+    width: 35px;
+    height: 40px;
+    margin-left: 3px;
+}
+
+div.card-personal {
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+div.card-personal > div.card-body{
+    padding: 0px !important; 
+    cursor: pointer;
+}
+
+div.card-personal > div.card-body > ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+div.card-personal > div.card-body > ul > li{
+    padding: 3px;
+    font-size: 20px;   
+    transition: 0.5s;
+    color: white;
+}
+
+div.card-personal > div.card-body > ul > li:hover{
+    background-color: darkgray;
+}
+
+div.card-personal > div.card-body > ul > li > img{
+    list-style-type: none;
+    margin: 0px 10px;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+  }  
+
+  div.card-personal > div.card-body > ul > li:nth-child(2) > img{   
+    width: 40px;
+    height: 20px;
+    filter: invert(0%);
+  }    
+
+
+  div.card-interest {
+      margin-bottom: 10px;
+  }
+
+  div.card-interest div.interests {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  div.card-interest div.interests > div:nth-child(even) {
+    background-color: lightgrey;
+    border-radius: 4px;
+    margin: 2px;
+    padding: 5px;
+ }
+
+ div.card-interest div.interests > div:nth-child(odd) {
+     background-color: grey;
+     border-radius: 4px;
+     color: white;
+     margin: 2px;
+     padding: 5px;
+}
